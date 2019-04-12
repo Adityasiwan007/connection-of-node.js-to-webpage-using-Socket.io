@@ -14,7 +14,7 @@ var io = require('socket.io').listen(server);
 var fs = require('fs');
               
 app.get('/', function (req, res) {
-res.sendFile(__dirname + '/pattern/examples/color_video.html');
+res.sendFile(__dirname + '/color_video.html');
 });
               
 myPort.on('open',onOpen);
